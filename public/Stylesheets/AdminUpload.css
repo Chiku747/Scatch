@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Sans-serif";
+}
+/* Navigation Bar */
+.nav nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 12px;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 15px;
+
+}
+
+.nav-items ul li {
+    list-style: none;
+
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+}
+#logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D59F1;
+}
+h2, form{
+    margin:20px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+}
+form input{
+    width:250px;
+    background:#B5EDB4;
+    border-radius:3px;
+    outline:none;
+    border:none;
+    padding:4px;
+}
+#create{
+    background:#397DCD;
+    width:100px;
+    margin-left:60px;
+    cursor:pointer;
+    color:white;
+}

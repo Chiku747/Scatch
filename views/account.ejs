@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheets/account.css">
+    <title>Document</title>
+</head>
+<body>
+       <!--Navigation Bar-->
+       <div class="nav">
+        <nav>
+            <p id="logo">Scatch</p>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Cart</a></li>
+                    <li><a href="">My Account</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="main">
+        <a href="/logout">Logout</a>
+        <h2>My Account</h2>
+        <p><%= user.name %></p>
+        <p><%= user.email %></p>
+    </div>
+</body>
+</html>

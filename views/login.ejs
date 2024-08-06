@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheets/login.css">
+    <title>Login || Scatch</title>
+
+<body>
+    <div class="main">
+        <p id="logo">Scatch</p>
+        <div class="container-1">
+            <p>Welcome to<span>Scatch</span></p>
+            <p>Create Account</p>
+            <form action="/signup" method="post">
+                <input type="text" name="name" placeholder="Name" id="">
+                <input type="email" name="email" placeholder="Email"id="">
+                <input type="password" name="password" placeholder="Password" id="">
+                <input type="submit" value="Sign Up" id="sign-btn">
+            </form>
+        </div>
+        <div class="circle">
+            Or
+        </div>
+        <div class="container-2">
+            <p>Login into your Account</p>
+            <form action="/login" method="post">
+                <input type="email" name="email" placeholder="Email"id="">
+                <input type="password" name="password" placeholder="Password" id="">
+                <input type="submit" value="Login" id="login-btn">
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
